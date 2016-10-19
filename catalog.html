@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nerds</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="index-logo">
+                <img src="img/index-logo.png" alt="Nerds" width="128" height="64">
+            </div>
+            <ul>
+                <li>
+                    <a href="#">Студия</a>
+                </li>
+                <li>
+                    <a href="#">Клиенты</a>
+                </li>
+                <li>
+                    <a href="#">Магазин</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="basket">
+                <a href="#">Корзина</a>
+            </div>
+            <div class="header-name">
+              <H1>Добро пожаловать в магазин готовых макетов</H1>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+      <div class="content-left">
+        <form class="form-filter" action="filter.php">
+          Стоимость:<br>
+          <input type="range"  value="12000" min="0" max="15000">
+          От
+          <input type="number" value="0">
+          До
+          <input type="number" value="15000">
+          <br>
+          Сетка:<br>
+          <input type="radio" name="options" value="Adapt" checked>Адаптивная<br>
+          <input type="radio" name="options" value="Fix">Фиксированная<br>
+          <input type="radio" name="options" value="Rubber">Резиновая<br>
+          Особенности:<br>
+          <input type="checkbox" name="features1" value="Slider" checked>Слайдер<br>
+          <input type="checkbox" name="features2" value="Advantages-block">Блок преимуществ<br>
+          <input type="checkbox" name="features3" value="News" checked>Новости<br>
+          <input type="checkbox" name="features4" value="Gallery">Галерея<br>
+          <input type="checkbox" name="features5" value="Basket">Корзина<br>
+          <input type="submit"  value="Показать" class="btn">
+        </form>
+      </div>
+      <div class="content-right">
+        <b>Сортировать:</b>
+        <ul>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По функционалу</a></li>
+        </ul>
+        <tr>
+          <td><a href="#"><img src="img/item1" alt="Aviator"></a></td>
+          <td><a href="#"><img src="img/item2" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><a href="#"><img src="img/item1" alt=""></a></td>
+          <td><a href="#"><img src="img/item2" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><a href="#"><img src="img/item1" alt=""></a></td>
+          <td><a href="#"><img src="img/item2" alt=""></a></td>
+        </tr>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="footer-map">
+        <img src="img/map" alt="Map" width="1024" height="256">
+        <div>
+          <b class="small-title">Nerds</b>
+          <p class="text-map">
+            Санкт-Петербург
+            <br>
+            тел
+          </p>
+          <button class="btn btn-red">Напишите нам</button>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+        <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+        <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+      </div>
+      <div class="footer-text">
+        <b class="text-title">Давайте</b>
+        <p class="text">Скидка</p>
+      </div>
+    </footer>
+</body>
+
+</html>
